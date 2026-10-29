@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="330" viewBox="0 0 490 330" role="img" aria-label="Custom Shopify apps: a magazine app served through App Proxy and a macro calculator app">
+  <title>Custom Shopify apps: a magazine app served through App Proxy and a macro calculator app</title>
+  <style>
+    .sans{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace}
+    .flow{stroke-dasharray:6 10;animation:flow 16s linear infinite}
+    .flow2{stroke-dasharray:4 12;animation:flow 26s linear infinite}
+    @keyframes flow{to{stroke-dashoffset:-640}}
+    .pulse{animation:pulse 2.4s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+    .float1{animation:float 6s ease-in-out infinite}
+    .float2{animation:float 7.5s ease-in-out infinite;animation-delay:-2s}
+    .float3{animation:float 5.5s ease-in-out infinite;animation-delay:-4s}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+    .shine{animation:shine 6s ease-in-out infinite}
+    @keyframes shine{0%{transform:translateX(-120%)}60%,100%{transform:translateX(120%)}}
+    
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0F3A"/><stop offset="58%" stop-color="#131851"/><stop offset="100%" stop-color="#0A3C8C"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.95" cy="0" r="0.65">
+      <stop offset="0%" stop-color="#0581F1" stop-opacity="0.42"/><stop offset="100%" stop-color="#0581F1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5FB0FF"/><stop offset="100%" stop-color="#0581F1"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C5CFF"/><stop offset="100%" stop-color="#0581F1"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity="0.08"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#fff" fill-opacity="0.07"/></pattern>
+    <clipPath id="frame"><rect width="490" height="330" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)" class="sans">
+    <rect width="490" height="330" fill="url(#bg)"/><rect width="490" height="330" fill="url(#glow)"/><rect width="490" height="330" fill="url(#dots)"/>
+    
+    <rect x="28" y="26" width="50" height="50" rx="14" fill="url(#accent)"/>
+    <g transform="translate(53 51)"><rect x="-11" y="-10" width="22" height="20" rx="3" fill="none" stroke="#fff" stroke-width="2.2"/><path d="M-11 -4h22" stroke="#fff" stroke-width="2.2"/><rect x="-7" y="0" width="6" height="6" rx="1" fill="#fff"/><rect x="2" y="0" width="5" height="2" rx="1" fill="#fff"/><rect x="2" y="4" width="5" height="2" rx="1" fill="#fff" opacity=".7"/></g>
+    <text x="92" y="44" class="mono" font-size="11.5" font-weight="700" letter-spacing="2" fill="#5FB0FF">CUSTOM APPS</text>
+    <text x="92" y="70" font-size="21" font-weight="800" letter-spacing="-0.3" fill="#FFFFFF">Shopify apps, built to fit</text>
+    
+    <rect x="28" y="102" width="434" height="92" rx="12" fill="#070B2E" fill-opacity="0.75" stroke="#fff" stroke-opacity="0.1"/>
+    <circle cx="46" cy="118" r="4" fill="#FF5F57"/><circle cx="60" cy="118" r="4" fill="#FEBC2E"/><circle cx="74" cy="118" r="4" fill="#28C840"/>
+    <rect x="96" y="112" width="200" height="12" rx="6" fill="#fff" fill-opacity="0.07"/>
+    <text x="104" y="122" class="mono" font-size="9.5" fill="#7F90C4">/apps/magazine</text>
+    <rect x="40" y="134" width="90" height="48" rx="6" fill="#fff" fill-opacity="0.05"/>
+    <rect x="144" y="134" width="94" height="48" rx="6" fill="url(#accentV)" opacity="0.35"/><rect x="248" y="134" width="94" height="48" rx="6" fill="url(#accentV)" opacity="0.5"/><rect x="352" y="134" width="94" height="48" rx="6" fill="url(#accentV)" opacity="0.6499999999999999"/>
+    <text x="28" y="224" font-size="14.5" font-weight="400" fill="#C9D6FF" text-anchor="start">A magazine app served on the storefront through</text>
+    <text x="28" y="245" font-size="14.5" font-weight="400" fill="#C9D6FF" text-anchor="start">App Proxy and a macro calculator app, both built</text>
+    <text x="28" y="266" font-size="14.5" font-weight="400" fill="#C9D6FF" text-anchor="start">and hosted for a Shopify Plus retailer.</text>
+    <rect x="28" y="290" width="58" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#5FB0FF" stroke-opacity="0.35"/>
+    <text x="57" y="306.14" text-anchor="middle" font-size="11.5" font-weight="600" fill="#DCE7FF">Remix</text><rect x="93" y="290" width="58" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#5FB0FF" stroke-opacity="0.35"/>
+    <text x="122" y="306.14" text-anchor="middle" font-size="11.5" font-weight="600" fill="#DCE7FF">React</text><rect x="158" y="290" width="84" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#5FB0FF" stroke-opacity="0.35"/>
+    <text x="200" y="306.14" text-anchor="middle" font-size="11.5" font-weight="600" fill="#DCE7FF">App Proxy</text><rect x="249" y="290" width="45" height="24" rx="12" fill="#FFFFFF" fill-opacity="0.06" stroke="#5FB0FF" stroke-opacity="0.35"/>
+    <text x="271.5" y="306.14" text-anchor="middle" font-size="11.5" font-weight="600" fill="#DCE7FF">AWS</text>
+    <rect x="0.5" y="0.5" width="489" height="329" rx="19.5" fill="none" stroke="#fff" stroke-opacity="0.1"/>
+  </g>
+</svg>
